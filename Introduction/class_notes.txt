@@ -1,0 +1,221 @@
+Introduction:
+-------------
+
+1. What is AngularJS ??
+
+2. Advantages Of AngularJS ??
+
+3. Disadvantages Of AngularJS ??
+
+4. Key Features of AngularJS ??
+
+5. Comparision Of AngularJS - Angular4
+
+		  AngularJS - reactJS
+
+		  AngularJS - NodeJS
+
+
+What is AngularJS
+-----------------
+
+	- AngularJS is the Client Side JavaScript
+
+Framework.
+
+	- AngularJS Follows the MVC Design Pattern.
+
+M - Model
+
+Ex.
+	var data = "data from database soon....!";
+
+
+[Note : where "data" variable called as model in angularjs]
+
+
+V - View
+
+	- we can use HTML / HTML5 as the View in AngularJS.
+
+
+C - Controller
+
+	we can call JavaScript Functions as the Controller
+
+        in angularJS.
+
+
+Ex.
+	function my_fun(){
+
+		//Logic Goes Here
+	}
+
+
+
+
+
+[Note : where "my_fun()" called as Controller in 
+	angularJS]
+
+
+Advantages Of AngularJS:
+------------------------
+
+1. AngularJS Supports Modules.
+	(Predefined Modules && Custom Modules)
+
+
+	- ngAnimate
+		- this module used to develop the Animations
+		  in angular applications.
+
+
+	- ngMessages
+		- this module used to handle the client side
+                  form validations.
+		
+	- ngStorage
+		- this module used to work with the Storages.
+
+		- we have two types of storages.
+
+			1. local storage
+
+			2. session storage
+		local storage:
+		--------------
+
+			- as a developer we must destroy the local storage
+	         	  explicitely
+
+			- local storage is the permanent storage.
+
+			- we can save maximum "5MB Data" in local storage		
+
+		session storage:
+		----------------
+
+			- when ever we "close the browser" or 
+			  "opens the new tab"
+                          data will be lost from session storage.
+
+			- session storage is the temparary storage.
+			
+			- we can save maximum 5MB Data in Session Storage.
+
+
+		ngRoute:
+		--------
+			- it is used to implement the Routing in
+                          Single Page Application.
+			
+			- ngRoute Module is the Default Module
+                          (Native Module).
+
+			- now a days "no project" using ngRoute Module
+			  
+			- "ngRoute" Module is the Deprecated Module.
+
+		ui.router:
+		----------
+			- this module used to implement the Routing
+                          in Single Page Application.
+
+			- ui.router module is the 3rd party module.
+
+			- now a days all most all the projects using
+			  ui.router module because of it's advantages.
+
+		
+
+Ex.
+	implement the angular application with following features.
+
+		1. Client Side Form Validations   (ngMessages)
+
+		2. Storages Support		  (ngStorage)
+
+		3. Animations Support		  (ngAnimate)
+
+		4. Single Page Applications	  (ui.router) 
+		   by using 3rd party Module.
+		
+		
+index.html
+----------
+<!DOCTYPE html>
+<html ng-app="app">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/
+	             angularjs/1.6.0/angular.min.js"></script>
+
+
+	<script>
+		var obj = angular.module("app",["ngMessages",
+				      "ngStorage",
+				       "ngAnimate",
+					"ui.router"]);
+	</script>
+</html>
+
+
+		
+2. Open Source Code
+
+	- As per our project Requirement we can customize the 
+	  framework
+
+		Ex.
+			adding the features
+			modifying the features
+			deleting the features
+				--
+				--
+				--	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
