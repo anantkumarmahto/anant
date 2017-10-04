@@ -175,47 +175,116 @@ index.html
 				--
 				--	
 
+3. Two Way Data Binding.
+
+	- Automatic Data Synchromization Between Model and View
+with the super vision of controller called as Two Way Data Binding.
 
 
 
 
+in the above diagram we have following server calls
+----------------------------------------------------
+1. http get request
+
+	- this request used to fetch the data from the database.
+
+
+2. http delete request
+
+	- this request used to delete a perticular resource from
+database.
+
+
+3. Ajax Request
+	- this server call used to overcome the data in consistency
+between view and database.
+
+
+
+[Note : as a programming languages developer we must make above
+        all server calls to meet application requirement
+
+	1. http get request
+	2. http delete request
+	3. ajax request
+
+]
+
+
+[Note : as a angular developer we can make only two server calls
+	to meet application requirement because of "two way data
+        binding".
+
+	1. http get request
+	2. http delete request
+]
+
+
+[Note : two way data binding reduces the burden on server]
+
+
+4. As a angular developer we can directly perform the
+   manipulations on DOM.
+
+	 - DOM Stands for Document Object Model.
+
+Ex.
+	copy the data from one div to another div by using
+	HTML & JavaScript.
+
+
+	As a HTML Developer we can manipulate the DOM by using
+	JavaScript.
 
 
 
 
+Ex.
+	copy the data from one div to another div by using
+	AngularJS.
 
 
 
+- angular framework (angular.min.js) starts the execution from
+  ng-app directive.
 
 
+- ng-model directive creates the object in heap memory with application
+  data
 
 
+- "ng-bind" directive binds the "model data" to view.
+
+- as a angular developer we can manipulate the DOM by using
+  angular directives
 
 
+Disadvantages of AngularJS
+--------------------------
+	- understanding the angular applications are difficult
+	  because of no coding standards given by google.
 
 
+	- we are loosing the secuirity by using angularjs, because
+	  we are implementing business components at client side.
+
+	- client should enable the javascript.
 
 
+key features of angularjs
+-------------------------
 
+1. single page applications
 
+	- loading one template to another template without refreshing
+	  the whole web page called as single page application.
 
+	- by using angularjs we can implement the single page applications
 
+	- we can implement the routing in single page application
+	  by using following modules.
 
+		1. ngRoute (Native Module)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		2. ui.router (3rd party Module)
